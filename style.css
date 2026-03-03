@@ -12,11 +12,16 @@ gap: 20px;
 padding: 5px 20px;
 background-color: beige;
 }
+.navlogo img{
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px 20px;
+}
 
 .navelements ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 .navelements ul li a{
     text-decoration: none;
@@ -50,28 +55,34 @@ background-color: beige;
 }
 .herodescription h2{
     padding: 20px;
-    font-size: 35px;
+    font-size: 30px;
 }
+.herodescription p{
+    padding: 20px;
+    font-size: 25px;
+}
+
 .herobutton{
   background-color: black;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer; 
     margin-top: 20px;
-    padding: 20px;
+   padding: 15px;
 }
 
 .heroimage{
     display: flex;
     align-content: center;
     justify-items: center;
-    padding: 70px;
+   padding: 10px 20px;
 }
 .heroimage img{
     border-radius: 30px;
-    width: 520px;
+    width: 350px;
 }
+
 /* this is project section*/
 .projectsection{
     background-color: beige;
@@ -102,29 +113,32 @@ background-color: beige;
 
 .projects{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
+    padding: 50px 10%;
 }
 .projects img{
     display: block;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 20px;
     align-items: center;
     gap: 30px;
-    width: 480px;
-    height: 350px;
-    border-radius: 15px;
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
 }
 .projects h4{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
 }
 .projects p{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 10px;
 }
 .partners{
     display: flex;
@@ -133,43 +147,30 @@ background-color: beige;
     align-items: center;
     gap: 20px;
 }
-.partners h3{
+.experiences {
+    display: flex;
+    flex-direction: column;
     padding:20px;
-    font-size: 40px;
-    width: 400px;
     align-items: center;
     justify-content: center;
-    display: flex;
-    
-}
-
-.partners p{
-    padding:20px;
     font-size: 20px;
+    
       
 }  
 .partnerbutton{
   background-color: black;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer; 
     margin-top: 20px;
     padding: 20px;
 }
 .partnerimage{
     display: flex;
-    gap: 20px;
-}
-.partnerimage img{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 300px;
-    height: auto;
     flex-direction: column;
-    border-radius: 10px;
-   
+    gap: 20px;
+    padding-top: 20px;
 }
 /*this is portfolio section*/
 .myportfolio{
@@ -190,13 +191,13 @@ background-color: beige;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;  
+    font-size: 25px;  
 }
 .portfolio p{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;  
+    font-size: 18px;  
 }
 
 .portfoliobuttons{
@@ -226,41 +227,64 @@ background-color: beige;
     padding-top: 20px;
     align-items: center;
     gap: 30px;
-    width: 480px;
-    height: 350px;
+    width: 290px;
+    height: 250px;
     border-radius: 15px;
+}
+.portfolioimages h4{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioimages p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .portfolioimages2{
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
+.portfolioimages2 h4{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioimages2 p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .portfolioimages2 img{
-   
-    justify-content: center;
-    padding-top: 20px;
-    align-items: center;
-    gap: 30px;
-    width: 480px;
-    height: 350px;
-    border-radius: 15px;
+   align-items: center;
+   justify-content: center;
+    width: 290px;
+    height: 250px;
+    
 }
 .portfoliobutton{
   background-color: black;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer; 
-    margin-top: 20px;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    
+    margin-top: 15px;
+   padding: 15px;
 }
+
 .clientfeedback{
     background-color: beige;
     display: block;
+    
 }
 .feedback{
     display: block;
@@ -268,73 +292,50 @@ background-color: beige;
     gap: 30px;
 }
 .feedback h4{
-font-size: 30px;
+font-size: 20px;
 align-items: center;
 justify-content: center;
 
 }
 .feedback p{
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
 }
 .clientmessages{
-    padding: 30px;
-   font-size: 20px;
    display: flex;
    gap: 30px;
-    
-}
-.John{
-     font-size: 25px;
-   display: block;
-   gap: 30px;
-    border: 10px;
-    width: 300px;
-    background: white;
-    border-radius: 20px;
     align-items: center;
     justify-content: center;
     padding: 20px;
-}
-.Hassan{
-     font-size: 25px;
-   display: block;
-   gap: 30px;
-    border: 20px;
-    width: 300px;
-    background: white;
     border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.clientmessages p{
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    font-size: 12px;
 }
-.Mc{
-     font-size: 25px;
-   display: block;
-   gap: 30px;
-    border: 10px;
-    width: 300px;
-    background: white;
-    border-radius: 20px;
+.clientmessages h5{
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    font-size: 17px;
 }
 .information{
+    background-color: beige;
     padding: 30px;
-   font-size: 20px;
-   display: block;
    gap: 30px;
    align-items: center;
    justify-content: center;
 }
 .name{
- font-size: 25px;
-   display: block;
+ font-size: 16px;
+   display: flex;
    gap: 30px;
-    border: 10px;
-    width: 300px;
+    flex-direction: column;
     background: beige;
     border-radius: 20px;
     align-items: center;
@@ -342,11 +343,10 @@ justify-content: center;
     padding: 20px;
 }
 .contact{
-font-size: 25px;
-   display: block;
-   gap: 30px;
-    border: 10px;
-    width: 300px;
+font-size: 18px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
     background: beige;
     border-radius: 20px;
     align-items: center;
@@ -354,32 +354,114 @@ font-size: 25px;
     padding: 20px;
 }
 .links{
-font-size: 25px;
+font-size: 20px;
    display: block;
-   gap: 30px;
-    border: 10px;
-    width: 300px;
+   gap: 10px;
     background: beige;
-    border-radius: 20px;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 .links p a{
     list-style: none;
-    display: flex;
-    gap: 30px;
+    display: block;
+    gap: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
     padding: 20px;
     
 }
-.copyright{
-    display: flex;
-    padding-top: 20px;
-    font-size: 20px;
-    gap: 30px;
-    margin-top: 20px;
+.copyright{ 
+    align-items: center;
+    justify-content: right;
+    font-size: 13px; 
+}
+
+
+
+
+
+
+
+/*media querry*/
+@media (max-width: 768px) {
+    .navelements {
+    
+        display: none;
+        
+    }
+    .navlogo img{
+        width: 150px;
+    }
+    .herosection{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .herodescription{
+
+         display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    .heroimage img{
+        width: 90%;
+    }
+    .herodescription h2{
+        font-size: 28px;
+    }
+    projects {
+        flex-direction: column;
+    }
+
+    .clients {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .projects{
+        
+        flex-direction: column;
+       
+
+    }
+    .partners {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .partnerimage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .portfolioimages,
+    .portfolioimages2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portfoliobuttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .clientmessages {
+        flex-direction: column;
+    }
+     .information > div:first-child {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+
+    
 }
